@@ -1,4 +1,4 @@
-![图](..\src\img\origin.png)
+![图](../src/img/origin.png)
 ## 仓库（Repository）
 在项目的开始到结束，我们会有两种仓库。一种是源仓库（origin），一种是开发者仓库。上图中的每个矩形都表示一个仓库，正中间的是我们的源仓库，而其他围绕着源仓库的则是开发者仓库。
 ### 源仓库
@@ -35,7 +35,7 @@
 所有开发者开发好的功能会在源仓库的develop分支中进行汇总，当develop中的代码经过不断的测试，已经逐渐趋于稳定了，接近产品目标了。这时候，我们就可以把develop分支合并到master分支中，发布一个新版本。所以，一个产品不断完善和发布过程就正如下图：使用git和github进行协同开发流程
 ```
 
-![图](..\src\img\branch-master-develop-re.png)
+![图](../src/img/branch-master-develop-re.png)
 
 注意，任何人不应该向master直接进行无意义的合并、提交操作。正常情况下，master只应该接受develop的合并，也就是说，master所有代码更新应该源于合并develop的代码。
 
@@ -45,7 +45,7 @@
 feature：功能性分支，是用于开发项目的功能的分支，是开发者主要战斗阵地。开发者在本地仓库从develop分支分出功能分支，在该分支上进行功能的开发，开发完成以后再合并到develop分支上，这时候功能性分支已经完成任务，可以删除。功能性分支的命名一般为feature-*，*为需要开发的功能的名称。使用git和github进行协同开发流程
 ```
 
-![图](..\src\img\branch-develop-feature-re.png)
+![图](../src/img/branch-develop-feature-re.png)
 
 ```text
 release：预发布分支，当产品即将发布的时候，要进行最后的调整和测试，这时候就可以分出一个预发布分支，进行最后的bug fix。测试完全以后，发布新版本，就可以把预发布分支删除。预发布分支一般命名为release-*。
