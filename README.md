@@ -26,7 +26,8 @@ $ git add *
 $ git commit -m "add src/img/create_master_develop_branch.png and update README.md"
 $ git push origin develop
 ```
-## 从develop分支checkout新的功能分支进行开发，例如：`feature-discuss`
+## 从develop分支checkout新的功能分支进行开发
+例如：`feature-discuss`
 ```bash
 $ git checkout -b feature-discuss
 # checkout -b 创建并切换到新的分支
@@ -44,7 +45,7 @@ Changes to be committed:
       new file:   discuss.js
 $ git commit -m 'finish discuss feature'
 ```
-## 回到`develop`分支，合并`feature-discuss`代码，并提交
+## 合并`feature-discuss`代码，并提交
 ### 回到`develop`分支
 ```bash
 $ git checkout develop
