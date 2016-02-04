@@ -1,5 +1,5 @@
 # git-demo
-使用git和github进行协同开发流程
+使用git和github进行协同开发流程,仓库、分支在开发中的使用建议参考:point_right:[Suggestions-for-repository-branches-used-in-development.md](doc/Suggestions-for-repository-branches-used-in-development.md)
 
 ---------------------------------
 ## 在`GitHub`上新建一个`repository`，初始化创建两个永久分支：`master`、`develop`
@@ -62,3 +62,6 @@ $ git branch -d feature-discuss
 $ git push origin develop
 ```
 ![图](src/img/finish_feature-discuss.png)
+
+# 原作
+[http://livoras.com/post/28](http://livoras.com/post/28)
