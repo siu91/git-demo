@@ -1,7 +1,7 @@
-# git-demo
+# *git-demo*
 使用git和github进行协同开发流程。  
  -  开发者使用建议(仓库、分支):point_right:[Suggestions](doc/Suggestions-for-repository-branches-used-in-development.md)
- - [`git-workflows`](doc/git-workflows-and-tutorials/) 
+ - [`git-workflows`](doc/git-workflows-and-tutorials/)
 1. [集中式工作流](doc/git-workflows-and-tutorials/workflow-centralized.md)  
 1. [功能分支工作流](doc/git-workflows-and-tutorials/workflow-feature-branch.md)  
 1. [`Gitflow`工作流](doc/git-workflows-and-tutorials/workflow-gitflow.md)  
