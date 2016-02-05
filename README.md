@@ -1,7 +1,11 @@
 # *git-demo*
 使用git和github进行协同开发流程。  
+ - 准备 :octocat:
+1. :arrow_down:[下载git](https://git-scm.com/downloads)
+2. [安装git](https://git-scm.com/doc)(`RTFM`)
+3. [使用GitHub](https://guides.github.com/activities/hello-world/)(`STFW`)
  -  开发者使用建议(仓库、分支):point_right:[Suggestions](doc/Suggestions-for-repository-branches-used-in-development.md)
- - [`git-workflows`](doc/git-workflows-and-tutorials/)
+ - [`git-workflows`](doc/git-workflows-and-tutorials/)@author :point_right:[*oldratlee*](https://github.com/oldratlee)
 1. [集中式工作流](doc/git-workflows-and-tutorials/workflow-centralized.md)  
 1. [功能分支工作流](doc/git-workflows-and-tutorials/workflow-feature-branch.md)  
 1. [`Gitflow`工作流](doc/git-workflows-and-tutorials/workflow-gitflow.md)  
@@ -75,6 +79,3 @@ $ git branch -d feature-discuss
 $ git push origin develop
 ```
 ![图](src/img/finish_feature-discuss.png)
-
-# 原作
-[http://livoras.com/post/28](http://livoras.com/post/28)
