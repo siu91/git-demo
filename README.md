@@ -1,5 +1,5 @@
 # *git-demo*
-使用git和github进行协同开发流程。  
+使用**git**和**github**进行协同开发流程。  
  - 准备 :octocat:
 1. :arrow_down:[下载git](https://git-scm.com/downloads)
 2. [安装git](https://git-scm.com/doc)(`RTFM`)
