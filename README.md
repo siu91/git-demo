@@ -1,12 +1,11 @@
 # git-demo
 使用git和github进行协同开发流程。  
 1.  开发者使用建议(仓库、分支):point_right:[Suggestions](doc/Suggestions-for-repository-branches-used-in-development.md)
-1. [集中式工作流](doc/git-workflows-and-tutorials/workflow-centralized.md)
-1. [功能分支工作流](doc/git-workflows-and-tutorials/workflow-feature-branch.md)
-1. [`Gitflow`工作流](doc/git-workflows-and-tutorials/workflow-gitflow.md)
-1. [`Forking`工作流](doc/git-workflows-and-tutorials/workflow-forking.md)
-1. [`Pull Requests`](doc/git-workflows-and-tutorials/pull-request.md)
-
+1. [集中式工作流](doc/git-workflows-and-tutorials/workflow-centralized.md)  
+1. [功能分支工作流](doc/git-workflows-and-tutorials/workflow-feature-branch.md)  
+1. [`Gitflow`工作流](doc/git-workflows-and-tutorials/workflow-gitflow.md)  
+1. [`Forking`工作流](doc/git-workflows-and-tutorials/workflow-forking.md)  
+1. [`Pull Requests`](doc/git-workflows-and-tutorials/pull-request.md)  
 
 ---------------------------------
 # 速成指南 :point_down:
@@ -62,7 +61,7 @@ $ git commit -m 'finish discuss feature'
 ```bash
 $ git checkout develop
 ```
-### `merge feature-discuss`代码
+###   `merge feature-discuss`代码
 ```bash
 $ git merge --no-ff feature-discuss
 ```
