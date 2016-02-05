@@ -17,7 +17,7 @@
 ---------------------------------
 ## 新建`repository`  
  创建永久分支：`master`、`develop`
-![图](src/img/create_master_develop_branch.png)
+![图](doc/images/create_master_develop_branch.png)
 ## 在本地clone仓库  
 checkout到develop分支
 ```bash
@@ -39,7 +39,7 @@ Untracked files:
       src/
 no changes added to commit (use "git add" and/or "git commit -a")
 $ git add *
-$ git commit -m "add src/img/create_master_develop_branch.png and update README.md"
+$ git commit -m "add doc/images/create_master_develop_branch.png and update README.md"
 $ git push origin develop
 ```
 ## 从develop分支checkout到新的功能分支进行开发
@@ -78,4 +78,4 @@ $ git branch -d feature-discuss
 ```bash
 $ git push origin develop
 ```
-![图](src/img/finish_feature-discuss.png)
+![图](doc/images/finish_feature-discuss.png)
