@@ -4,6 +4,7 @@
 1. :arrow_down:[下载git](https://git-scm.com/downloads)
 2. [安装git](https://git-scm.com/doc)(`RTFM`)
 3. [使用GitHub](https://guides.github.com/activities/hello-world/)(`STFW`)
+ -  [分支最佳实践](doc/branch_of_best_practices.md)
  -  [开发者使用建议(仓库、分支)](doc/Suggestions-for-repository-branches-used-in-development.md)
  - [`git-workflows`](doc/git-workflows-and-tutorials/)@author :point_right:[*oldratlee*](https://github.com/oldratlee)
 1. [集中式工作流](doc/git-workflows-and-tutorials/workflow-centralized.md)  
